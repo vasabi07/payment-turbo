@@ -1,0 +1,17 @@
+{
+  "name": "@repo/db",
+  "version": "1.0.0",
+  "devDependencies": {
+    
+  },
+  "scripts": {
+  "migrate": "prisma migrate dev"
+},
+  "dependencies": {
+    "prisma": "^5.19.1",
+    "@prisma/client": "5.19.1"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+}
+}
